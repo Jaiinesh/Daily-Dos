@@ -1,0 +1,117 @@
+* {
+    /* font-family: 'Sulphur Point', sans-serif; */
+    font-family: 'Roboto Slab', serif;
+}
+
+button {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 2px 18px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button:hover {
+    transition: 0.3s;
+    background-color: #575757;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+.Add-task-ip-field {
+    display: flex;
+    flex-direction: row;
+    width: 450px;
+    margin-bottom: 20px;
+}
+
+
+input {
+    background-color: #f4f4f4;
+    color: #6d6d6d;
+    width: 400px;
+    border-width: 2px;
+    padding: 8px 14px;
+    margin: 0px 2px;
+    font-size: 16px;
+    flex-direction: row;
+    flex-wrap: wrap; 
+}
+
+input:hover {
+    transition: 0.5s;
+    background-color: #d1d1d1;
+    color: #2a2a2a;
+}
+
+.Add-task-container {
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 100%;
+    border-width: 2px;
+    border-color: #000000;
+    border-style: dashed;
+}
+
+.Add-task-container h2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-width: 2px;
+    border-color: #000000;
+}
+
+.Pending-task-op-field {
+    width: 450px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.Pending-task-ip-field-btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #eaeaea;
+    color: #000000;
+    width: 400px;
+    border-width: 2px;
+    padding: 8px 14px;
+    font-size: 16px;
+}
+
+
+.Pending-task-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 500px;
+    border-width: 2px;
+    border-color: #000000;
+    border-style: dashed;
+    margin: 20px auto;
+    height: auto;
+}
+
+.Pending-task-container h2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-width: 2px;
+    border-color: #000000;
+}
