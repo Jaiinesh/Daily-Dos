@@ -10,14 +10,13 @@
     align-items: center;
 }
 
-@media (width <= 400px) {
+@media (width <= 415px) {
     .Black-navbar{
-        width: 440px;
-        padding: 0px 32px;
+        width: 456px;
+        padding: 0px 20px;
     }
     
 }
-
 
 .Todos-logo {
     display: flex;

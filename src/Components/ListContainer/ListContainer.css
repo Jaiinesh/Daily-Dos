@@ -29,7 +29,7 @@ button:hover {
     margin-bottom: 20px;
 }
 
-@media (width <= 400px) {
+@media (width <= 415px) {
     .Add-task-ip-field{
         width: 400px;
         padding: 0px 0px;
@@ -37,6 +37,7 @@ button:hover {
     }
     
 }
+
 
 input {
     background-color: #f4f4f4;
@@ -69,7 +70,7 @@ input:hover {
     border-style: dashed;
 }
 
-@media (width <= 400px) {
+@media (width <= 415px) {
     .Add-task-container{
         width: 440px;
         padding: 0px 0px;
@@ -77,6 +78,7 @@ input:hover {
     }
     
 }
+
 
 
 .Add-task-container h2 {
@@ -97,7 +99,7 @@ input:hover {
     align-items: center;
 }
 
-@media (width <= 400px) {
+@media (width <= 415px) {
     .Pending-task-op-field{
         width: 400px;
         padding: 0px 0px;
@@ -134,7 +136,7 @@ input:hover {
     height: auto;
 }
 
-@media (width <= 400px) {
+@media (width <= 415px) {
     .Pending-task-container{
         width: 440px;
         padding: 0px 0px;
