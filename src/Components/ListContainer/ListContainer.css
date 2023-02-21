@@ -29,6 +29,14 @@ button:hover {
     margin-bottom: 20px;
 }
 
+@media (width <= 400px) {
+    .Add-task-ip-field{
+        width: 400px;
+        padding: 0px 0px;
+        margin: 16px 0px;
+    }
+    
+}
 
 input {
     background-color: #f4f4f4;
@@ -61,6 +69,16 @@ input:hover {
     border-style: dashed;
 }
 
+@media (width <= 400px) {
+    .Add-task-container{
+        width: 440px;
+        padding: 0px 0px;
+        margin: 28px;
+    }
+    
+}
+
+
 .Add-task-container h2 {
     display: flex;
     flex-direction: column;
@@ -77,6 +95,15 @@ input:hover {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+}
+
+@media (width <= 400px) {
+    .Pending-task-op-field{
+        width: 400px;
+        padding: 0px 0px;
+        margin: auto;
+    }
+    
 }
 
 
@@ -105,6 +132,15 @@ input:hover {
     border-style: dashed;
     margin: 20px auto;
     height: auto;
+}
+
+@media (width <= 400px) {
+    .Pending-task-container{
+        width: 440px;
+        padding: 0px 0px;
+        margin: 28px;
+    }
+    
 }
 
 .Pending-task-container h2 {

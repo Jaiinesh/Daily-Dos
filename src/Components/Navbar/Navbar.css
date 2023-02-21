@@ -10,6 +10,15 @@
     align-items: center;
 }
 
+@media (width <= 400px) {
+    .Black-navbar{
+        width: 440px;
+        padding: 0px 32px;
+    }
+    
+}
+
+
 .Todos-logo {
     display: flex;
     padding: 8px 0px;
