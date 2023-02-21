@@ -1,10 +1,22 @@
 import React, { useState } from 'react'
+import { useEffect } from 'react'
 import './ListContainer.css'
 
+
+const getLocalItems = () => {
+  let list = localStorage.getItem('lists')
+  console.log(list)
+  if (list) {
+    return JSON.parse( localStorage.getItem('lists'))
+  } else {
+    return []
+  }
+
+}
 const ListContainer = () => {
 
   const [inputData, setInputData] = useState('')
-  const [items, setItems] = useState([])
+  const [items, setItems] = useState(getLocalItems())
   const deleteItem = (id) => {
     const updateditems = items.filter((elem, ind) => {
       return ind !== id;
@@ -19,6 +31,11 @@ const ListContainer = () => {
       setInputData('')
     }
   }
+
+  useEffect(() => {
+    localStorage.setItem('lists', JSON.stringify(items))
+  }, [items])
+
 
   return (
 
