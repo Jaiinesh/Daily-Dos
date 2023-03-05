@@ -1,10 +1,10 @@
 .footer-btm{
     position: fixed;
     bottom: 0px;
-    background-color: rgb(0, 0, 0);
+    background-color: #0f1a20;
     height: 40px;
     width: 100%;
-    color: lightgray;
+    color: #CDCCCC;
     display: flex;
     align-items: center;
     justify-content: center;

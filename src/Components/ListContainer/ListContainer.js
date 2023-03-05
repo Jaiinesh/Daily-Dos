@@ -17,6 +17,8 @@ const ListContainer = () => {
 
   const [inputData, setInputData] = useState('')
   const [items, setItems] = useState(getLocalItems())
+
+  
   const deleteItem = (id) => {
     const updateditems = items.filter((elem, ind) => {
       return ind !== id;
@@ -33,6 +35,7 @@ const ListContainer = () => {
   }
 
   useEffect(() => {
+    
     localStorage.setItem('lists', JSON.stringify(items))
   }, [items])
 
@@ -58,10 +61,13 @@ const ListContainer = () => {
           {
             items.map((elem, ind) => {
               return (
-                <div className='Pending-task-op-field' key={ind} >
+              
+                <div className='Pending-task-op-field'  key={ind} >
                   <h3 className='Pending-task-ip-field-btn'> {elem}</h3>
                   <button onClick={() => deleteItem(ind)} >Complete</button>
+              
                 </div>
+    
               )
             })
           }

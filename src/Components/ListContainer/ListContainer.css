@@ -17,9 +17,9 @@ button {
 
 button:hover {
     transition: 0.3s;
-    background-color: #575757;
+    background-color: #e7e7e7;
     cursor: pointer;
-    color: #ffffff;
+    color: #363636;
 }
 
 .Add-task-ip-field {

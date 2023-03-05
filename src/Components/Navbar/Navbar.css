@@ -3,8 +3,8 @@
     flex-direction: row;
     justify-content: space-between;
     width: auto;
-    background-color: #010101;
-    color: #f1f1f1;
+    background-color: #0f1a20;
+    color: #CDCCCC;
     padding: 0px 100px;
     height: 80px;
     align-items: center;
@@ -32,7 +32,8 @@
     cursor: pointer;
     align-items: center;
     justify-content: center;
-    ;
+    color: #CDCCCC;
+    border: 2px solid #000000;
 }
 
 .More-from-us-btn:hover {
@@ -42,7 +43,7 @@
     -webkit-transform: scale(1.2);
     -ms-transform: scale(1.2);
     transform: scale(1.2);
-    
+    border:none;
     
 }
 
